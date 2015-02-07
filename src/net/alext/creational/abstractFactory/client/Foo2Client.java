@@ -9,7 +9,6 @@ public class Foo2Client implements Client {
 
     @Override
     public void Action() {
-
-        return;
+        _factory.CreateFoo().ReturnInteger();
     }
 }
